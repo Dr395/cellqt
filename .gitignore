@@ -1,0 +1,15 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment directories
+venv/
+.env/
+env/
+.venv/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+

@@ -15,7 +15,7 @@ import numpy as np
 import torchvision.transforms as transforms
 from ui_core import strip_inline_styles
 # 导入DeepTrans相关模块
-sys.path.append("F:\qiu_qt\DeepTrans-HSU-main")
+# 确保已经安装DeepTrans包，或通过环境变量DEEPTRANS_PATH指定其位置
 try:
     from DeepTrans.models import create_model
     from DeepTrans.options.test_options import TestOptions
